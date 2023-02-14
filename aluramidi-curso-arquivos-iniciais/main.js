@@ -37,22 +37,25 @@ function tocaSomTom() {
 }
 
 
-//QuerySelector dos botões
+//QuerySelectorAll (Seleciona tudo da lista) dos botões
 
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
-document.querySelector('.tecla_clap').onclick = tocaSomClap;
+listaDeTeclas[0].onclick = tocaSomPom;
 
-document.querySelector('.tecla_tim').onclick = tocaSomTim;
+listaDeTeclas[1].onclick = tocaSomClap;
 
-document.querySelector('.tecla_puff').onclick = tocaSomPuff;
+listaDeTeclas[2].onclick = tocaSomTim;
 
-document.querySelector('.tecla_splash').onclick = tocaSomSplash;
+listaDeTeclas[3].onclick = tocaSomPuff;
 
-document.querySelector('.tecla_toim').onclick = tocaSomToim;
+listaDeTeclas[4].onclick = tocaSomSplash;
 
-document.querySelector('.tecla_psh').onclick = tocaSomPsh;
+listaDeTeclas[5].onclick = tocaSomToim;
 
-document.querySelector('.tecla_tic').onclick = tocaSomTic;
+listaDeTeclas[6].onclick = tocaSomPsh;
 
-document.querySelector('.tecla_tom').onclick = tocaSomTom;
+listaDeTeclas[7].onclick = tocaSomTic;
+
+listaDeTeclas[8].onclick = tocaSomTom;
+
