@@ -1,4 +1,4 @@
-//Funções js
+//Funções dos botões 
 
 function tocaSomPom() {
     document.querySelector('#som_tecla_pom').play()
@@ -36,6 +36,8 @@ function tocaSomTom() {
     document.querySelector('#som_tecla_tom').play()
 }
 
+
+//QuerySelector dos botões
 
 document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
