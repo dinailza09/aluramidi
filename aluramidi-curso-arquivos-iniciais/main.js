@@ -1,4 +1,36 @@
+function tocaSomPom() {
+    document.querySelector('#som_tecla_clap').play()
+}
+
 function tocaSomClap() {
+    document.querySelector('#som_tecla_clap').play()
+}
+
+function tocaSomTim() {
+    document.querySelector('#som_tecla_clap').play()
+}
+
+function tocaSomPuff() {
+    document.querySelector('#som_tecla_clap').play()
+}
+
+function tocaSomSplash() {
+    document.querySelector('#som_tecla_clap').play()
+}
+
+function tocaSomToim() {
+    document.querySelector('#som_tecla_clap').play()
+}
+
+function tocaSomPsh() {
+    document.querySelector('#som_tecla_clap').play()
+}
+
+function tocaSomTic() {
+    document.querySelector('#som_tecla_clap').play()
+}
+
+function tocaSomTom() {
     document.querySelector('#som_tecla_clap').play()
 }
 
