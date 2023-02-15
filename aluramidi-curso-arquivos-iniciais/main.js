@@ -1,9 +1,12 @@
 //Funções dos botões 
 
-function tocaSom(idElementoAudio) {
+function tocaSom(seletorAudio) {
 
-    document.querySelector(idElementoAudio).play()
+   const elemento =  document.querySelector(seletorAudio);
 
+   if (elemento === null) {
+     alert('Elemento não encontrado!');
+   }
 }
 
 
