@@ -8,11 +8,8 @@ function tocaSom(seletorAudio) {
     console.log('Elemento não encontrado!');
    }
 
-   if(elemento!=null){
-    if(elemento.localName === 'audio'){
+   if(elemento!=null && elemento.localName === 'audio'){
        elemento.play();
-    }
-   
    }
 }
 
